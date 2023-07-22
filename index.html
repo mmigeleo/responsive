@@ -20,18 +20,6 @@
             height: 300px;
             padding: 10px;
         }
-        @media(max-width: 450px){
-            .container{
-                flex-direction: column;
-            }
-            .album{
-                flex-direction: column;
-            }
-            .header{
-                flex-direction: column;
-            }
-            
-        }
         .header{
             background-color: rgb(55, 52, 49);
             display: flex;
@@ -64,6 +52,23 @@
         }
         .img3{
             background-image: url(image3.jpeg);
+        }
+
+        @media(max-width: 450px){
+            .container{
+                flex-direction: column;
+            }
+            .album{
+                flex-direction: column;
+            }
+            .image{
+                margin: 10px auto;
+                width: 90%;
+            }
+            .header{
+                flex-direction: column;
+            }
+            
         }
 
     </style>

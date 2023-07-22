@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;color: white;
+        }
+        .box1{
+            width: 100%;
+            background-color: rgb(72, 71, 85);
+            height: 300px;
+            padding: 10px;
+        }
+        @media(max-width: 450px){
+            .container{
+                flex-direction: column;
+            }
+            .album{
+                flex-direction: column;
+            }
+            .header{
+                flex-direction: column;
+            }
+            
+        }
+        .header{
+            background-color: rgb(55, 52, 49);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px;
+            color: white;
+        }
+        .footer{
+            background-color: rgb(67, 66, 64);
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+        .album{
+            display: flex;
+            flex-direction: row;
+        }
+        .image{
+            height: 400px;
+            width: 33%;
+            background-size: cover;
+        }
+        .img1{
+            background-image: url(image1.jpeg);
+        }
+        .img2{
+            background-image: url(image2.jpeg);
+
+        }
+        .img3{
+            background-image: url(image3.jpeg);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><h1>LOGO</h1></div>
+        <div class="name"><h1>Responsive Site</h1></div>
+    </div>
+    <div class="container">
+        <div class="box1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nisi deleniti similique rerum commodi incidunt eum eaque consequuntur aperiam ducimus numquam perferendis corporis possimus quis earum ipsum necessitatibus, vitae, sit deserunt. Eum, numquam expedita temporibus sit eius quidem laudantium libero vel fugit facilis beatae similique unde dolor labore corporis accusantium minus ipsum nesciunt debitis nisi! Aliquid, labore ab? Vel eveniet dolorem itaque tempore qui repellendus nisi eaque facilis quia? Expedita impedit unde velit ipsum laudantium omnis ad quibusdam, quae a similique, voluptatem accusamus, eos quasi veniam labore voluptas? Architecto aliquam distinctio suscipit quam asperiores harum dolores ea hic nobis tenetur! Amet vitae, possimus magnam eligendi laboriosam debitis mollitia voluptatibus sint ipsa hic totam error, odit minima est corporis, esse ratione quidem at porro a! Nihil a odio nesciunt aspernatur esse reiciendis ea temporibus repellat, necessitatibus voluptate molestiae explicabo unde quo minus maxime amet sapiente distinctio tenetur consequatur quaerat natus voluptas consectetur! Molestiae, sint illo. Accusamus rem consequatur repellat maiores autem, optio, deleniti facere modi ullam perferendis assumenda cum. Blanditiis, sit. Nobis fugit eius natus nulla itaque odit laborum! Commodi dolore autem asperiores tempore ea debitis, harum explicabo nostrum ipsa delectus assumenda laudantium voluptas nemo, voluptatibus neque quos in. Minus, voluptatibus.</p></div>
+    </div>
+    <div class="album">
+        <div class="image img1"></div>
+        <div class="image img2"></div>
+        <div class="image img3"></div>
+    </div>
+    <div class="footer">
+        <div class="conclusion">This Site was done by Mmigeleo</div>
+    </div>
+    
+</body>
+</html>
